@@ -33,23 +33,17 @@ Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, p
 ### Aenean ut eros
 
 * Gis vestibulum
-
 * Nullam nulla eros
-
 * Rltricies sit amet, nonu
-
   * Qmy id, imperdiet feugiat, pede
-
     * Sed lectus
-
       * Donec mollis hendrerit risus
-
 * Phasellus nec sem in justo
-
   1. Eentesque facilisis. Etiam imp
   2. Hrdiet imperdiet orci. Nunc nec neque
   3. Phasellus leo dolor, tempus non, auctor et
   4. hendrerit quis, nisi
+
 ---
 ###### Curabitur ligula sapien
 
