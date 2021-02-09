@@ -1,0 +1,186 @@
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./githubkaitc/NotoSans-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./githubkaitc/NotoSans-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSansTC';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./githubkaitc/NotoSansTC-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSansTC';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./githubkaitc/NotoSansTC-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSansTC';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./githubkaitc/NotoSansTC-Bold.otf') format('opentype');
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'NotoSans', PMingLiU, 'NotoSansTC', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #24292e;
+}
+
+#write {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 32px !important;
+    padding-bottom: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'NotoSans', 'NotoSansTC';
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+h1 code,
+h1 tt,
+h2 code,
+h2 tt,
+h3 code,
+h3 tt,
+h4 code,
+h4 tt,
+h5 code,
+h5 tt,
+h6 code,
+h6 tt {
+    font-size: inherit;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaecef;
+    color: #24292e;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaecef;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.875em;
+}
+
+h6 {
+    font-size: 0.85em;
+    color: #6a737d;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+    margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+}
+
+blockquote {
+    border-left: 0.25em solid #dfe2e5;
+    margin: 0px 0px 16px;
+    padding: 0 16px;
+    color: #6a737d;
+}
+
+blockquote blockquote {
+    padding-right: 0;
+}
+
+code {
+    font-family: Consolas, MingLiU, monospace;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    border-radius: 6px;
+    background-color: #f4f6f8;
+}
+
+.md-fences,
+pre code,
+tt {
+    font-family: Consolas, MingLiU, monospace;
+    background-color: #f4f6f8;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 80%;
+}
+
+ul,
+ol {
+    padding: 0px 0px 0px 32px;
+}
+
+ul li,
+ol li {
+    margin: 4px 0px 0px;
+}
+
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+/*# sourceMappingURL=githubkaitc.css.map */
